@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13046409370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validating the movie information in wikipedia and imdp websites",
+        "description": "",
+        "id": "verifying-the-movieinformation-in-wikipedia-and-imdp-websites;validating-the-movie-information-in-wikipedia-and-imdp-websites",
+        "after": [
+          {
+            "result": {
+              "duration": 285572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6854272561,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should enter the movie name in google search page",
+            "match": {
+              "location": "MovieInformationStep.userShouldEnterTheMovieNameInGoogleSearchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00274.1.4\u0027, revision: \u0027535d840ee2\u0027\nSystem info: host: \u0027DELL\u0027, ip: \u0027192.168.65.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2fd2506a9cd15faa52aea08b8d08c700, clickElement {id\u003d1e91e443-467c-456c-8478-cf3c586bd110}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nithya\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2fd2506a9cd15faa52aea08b8d08c700)] -\u003e xpath: //h3[contains(text(),\u0027Wikipedia\u0027)]]\nSession ID: 2fd2506a9cd15faa52aea08b8d08c700\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat com.base.BaseClass.click(BaseClass.java:106)\r\n\tat com.stepdefinition.MovieInformationStep.userShouldClickOnWikipediaAndImdpLinksThenFetchDateAndCountry(MovieInformationStep.java:30)\r\n\tat ✽.User should click on wikipedia and imdp links then fetch date and country(src/test/resources/Folder/MovieInformation.feature:5)\r\n",
+              "duration": 40176574042,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User should click on wikipedia and imdp links then fetch date and country",
+            "match": {
+              "location": "MovieInformationStep.userShouldClickOnWikipediaAndImdpLinksThenFetchDateAndCountry()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29584,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should compare the data using Assert.",
+            "match": {
+              "location": "MovieInformationStep.userShouldCompareTheDataUsingAssert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the movieinformation in wikipedia and imdp websites",
+    "description": "",
+    "id": "verifying-the-movieinformation-in-wikipedia-and-imdp-websites",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Folder/MovieInformation.feature",
+    "tags": []
+  }
+]

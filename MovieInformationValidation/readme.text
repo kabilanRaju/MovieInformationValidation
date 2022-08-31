@@ -1,0 +1,24 @@
+ProjectName  :MovieInformationValidation
+MovieName    :Puspha-the Rise
+FrameworkUsed:Cucumber&Junit
+BuiltTool    :Maven 
+Programming lang: Java
+
+src/test/java   -maintaining all the codes 
+
+  -BaseClass    -Contains all the Reusuable Methods
+  -PageManager  -Acheiving sinleton concept inorder to restrict multiple object creation
+  -pages        -PageObjectModel Design pattern to maintain all our Locators
+  -Reports      -Cucumber report generation method implementation
+  -Runner       -Program execution Starting here
+  -Rerun        -To execute failed testcases 
+  -StepDefinition-Implementation of all the codes under each snippets
+
+src/test/resources -maintaining all our features files
+
+  -feature       -converting requirements into plain english words/gherkin words
+
+Screenshots    -Here we are maintaining all the screenshots
+target         -All our reports will store in target folder
+config.proprty -Credentials will be maitaned here
+pom.xml        -Maintaining all our dependencies
